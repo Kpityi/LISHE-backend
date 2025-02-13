@@ -1,0 +1,14 @@
+export const PORT = parseInt(process.env.PORT);
+export const DB_HOST = process.env.DB_HOST;
+export const DB_USER = process.env.DB_USER;
+export const DB_PASSWORD = process.env.DB_PASSWORD;
+export const DB_NAME = process.env.DB_NAME;
+export const SMTP_USER = process.env.SMTP_USER;
+export const SMTP_PASSWORD = process.env.SMTP_PASSWORD;
+export const SMTP_MAIL_TO = process.env.SMTP_MAIL_TO;
+export const SECRET_KEY = process.env.SECRET_KEY;
+export const ENVIRONMENT = process.env.ENVIRONMENT;
+export const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY;
+export const TZ = process.env.TZ;
+export const FRONTEND_URL = process.env.FRONTEND_URL;
+export const ADMIN_URL = process.env.ADMIN_URL;
